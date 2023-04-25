@@ -89,11 +89,55 @@ class HomePage extends StatelessWidget {
               child: Image.asset(
                 'assets/images/addtask2.png',
                 height: 80,
-                width: 80, color: Colors.white,
+                width: 80,
+                color: Colors.white,
               ),
             ),
 
             //another
+            Padding(
+              padding: const EdgeInsets.symmetric(vertical: 20,horizontal: 40),
+              child: Container(
+                decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(20),
+                    color: Colors.blue),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    const Padding(
+                      padding: EdgeInsets.all(8.0),
+                      child: Text(
+                        'Alarm ',
+                        style: TextStyle(
+                            fontSize: 20,
+                            color: Colors.white,
+                            fontWeight: FontWeight.bold),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Container(
+                        height: 25,
+                        width: 5,
+                        decoration: const BoxDecoration(
+                          color: Colors.white,
+                        ),
+                      ),
+                    ),
+                    const Padding(
+                      padding: EdgeInsets.all(8.0),
+                      child: Text(
+                        ' StopWatch',
+                        style: TextStyle(
+                            fontSize: 20,
+                            color: Colors.white,
+                            fontWeight: FontWeight.bold),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            )
           ],
         ),
       ),
