@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:plan_ahead/pages/homepage.dart';
 
 class WelcomePage extends StatelessWidget {
   const WelcomePage({super.key});
@@ -70,7 +71,12 @@ class WelcomePage extends StatelessWidget {
                     vertical: 40,
                   ),
                   child: ElevatedButton(
-                    onPressed: () {},
+                    onPressed: () {  Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => const HomePage(),
+                            ),
+                          );},
                     style: ButtonStyle(
                       backgroundColor:
                           MaterialStateProperty.all<Color>(Colors.white),
