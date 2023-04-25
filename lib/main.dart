@@ -1,10 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:plan_ahead/pages/add_all.dart';
-import 'package:plan_ahead/pages/alarms.dart';
-import 'package:plan_ahead/pages/daily_tsak.dart';
-import 'package:plan_ahead/pages/homepage.dart';
-import 'package:plan_ahead/pages/reminder.dart';
-import 'package:plan_ahead/pages/stopwatch.dart';
 import 'package:plan_ahead/pages/welcome.dart';
 
 void main() {
@@ -23,7 +17,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ), debugShowCheckedModeBanner: false,
       
-      home: const AddAllPage(),
+      home: const WelcomePage(),
     );
   }
 }
