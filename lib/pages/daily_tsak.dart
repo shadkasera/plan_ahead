@@ -52,7 +52,7 @@ class DailyTaskPage extends StatelessWidget {
                   const Padding(
                     padding: EdgeInsets.symmetric(horizontal: 10, vertical: 10),
                     child: Text(
-                      'Reminder 1',
+                      'Task 1',
                       style: TextStyle(
                           fontSize: 24,
                           color: Colors.grey,
@@ -73,7 +73,7 @@ class DailyTaskPage extends StatelessWidget {
                   const Padding(
                     padding: EdgeInsets.symmetric(horizontal: 10, vertical: 10),
                     child: Text(
-                      'Reminder 2',
+                      'Task 2',
                       style: TextStyle(
                           fontSize: 24,
                           color: Colors.grey,
@@ -94,7 +94,7 @@ class DailyTaskPage extends StatelessWidget {
                   const Padding(
                     padding: EdgeInsets.symmetric(horizontal: 10, vertical: 10),
                     child: Text(
-                      'Reminder 3',
+                      'Task 3',
                       style: TextStyle(
                           fontSize: 24,
                           color: Colors.grey,
@@ -116,7 +116,7 @@ class DailyTaskPage extends StatelessWidget {
                   const Padding(
                     padding: EdgeInsets.symmetric(horizontal: 10, vertical: 10),
                     child: Text(
-                      'Reminder 4',
+                      'Task 4',
                       style: TextStyle(
                           fontSize: 24,
                           color: Colors.grey,
@@ -137,7 +137,7 @@ class DailyTaskPage extends StatelessWidget {
                   const Padding(
                     padding: EdgeInsets.symmetric(horizontal: 10, vertical: 10),
                     child: Text(
-                      'Reminder 5',
+                      'Task 5',
                       style: TextStyle(
                           fontSize: 24,
                           color: Colors.grey,
@@ -157,7 +157,7 @@ class DailyTaskPage extends StatelessWidget {
                   const Padding(
                     padding: EdgeInsets.symmetric(horizontal: 10, vertical: 10),
                     child: Text(
-                      'Reminder 6',
+                      'Task 6',
                       style: TextStyle(
                           fontSize: 24,
                           color: Colors.grey,
