@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:plan_ahead/pages/add_all.dart';
 import 'package:plan_ahead/pages/alarms.dart';
 import 'package:plan_ahead/pages/daily_tsak.dart';
 import 'package:plan_ahead/pages/reminder.dart';
@@ -113,18 +114,27 @@ class HomePage extends StatelessWidget {
               //another
               Padding(
                 padding: const EdgeInsets.symmetric(vertical: 20),
-                child: Container(
-                  height: 80,
-                  width: 80,
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(60),
-                    color: Colors.blue,
-                  ),
-                  child: Image.asset(
-                    'assets/images/addtask2.png',
+                child: GestureDetector(onTap: () {
+                  Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => const AddAllPage(),
+                        ),
+                      );
+                },
+                  child: Container(
                     height: 80,
                     width: 80,
-                    color: Colors.white,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(60),
+                      color: Colors.blue,
+                    ),
+                    child: Image.asset(
+                      'assets/images/addtask2.png',
+                      height: 80,
+                      width: 80,
+                      color: Colors.white,
+                    ),
                   ),
                 ),
               ),
