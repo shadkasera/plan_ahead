@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:plan_ahead/pages/add_all.dart';
 import 'package:plan_ahead/pages/alarms.dart';
 import 'package:plan_ahead/pages/daily_tsak.dart';
 import 'package:plan_ahead/pages/homepage.dart';
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ), debugShowCheckedModeBanner: false,
       
-      home: const WelcomePage(),
+      home: const AddAllPage(),
     );
   }
 }
