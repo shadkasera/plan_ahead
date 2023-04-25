@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:plan_ahead/pages/daily_tsak.dart';
 import 'package:plan_ahead/pages/homepage.dart';
+import 'package:plan_ahead/pages/reminder.dart';
 import 'package:plan_ahead/pages/welcome.dart';
 
 void main() {
