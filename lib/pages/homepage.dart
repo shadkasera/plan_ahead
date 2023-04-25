@@ -78,6 +78,22 @@ class HomePage extends StatelessWidget {
                 ),
               ),
             ),
+            //another
+            Container(
+              height: 80,
+              width: 80,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(60),
+                color: Colors.blue,
+              ),
+              child: Image.asset(
+                'assets/images/addtask2.png',
+                height: 80,
+                width: 80, color: Colors.white,
+              ),
+            ),
+
+            //another
           ],
         ),
       ),
