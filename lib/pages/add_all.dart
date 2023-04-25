@@ -40,6 +40,16 @@ class AddAllPage extends StatelessWidget {
           child: SingleChildScrollView(
         child: Column(
           children: [
+            const Padding(
+              padding: EdgeInsets.all(50),
+              child: Text(
+                'Add Items',
+                style: TextStyle(
+                  fontSize: 30,
+                  fontWeight: FontWeight.bold,color: Colors.blue
+                ),
+              ),
+            ),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 30),
               child: Column(
@@ -63,7 +73,7 @@ class AddAllPage extends StatelessWidget {
                           ],
                         ),
                         const Icon(
-                          Icons.add_alarm,
+                          Icons.add_circle,
                           size: 50,
                           color: Colors.blue,
                         ),
@@ -153,8 +163,6 @@ class AddAllPage extends StatelessWidget {
                   ),
 
                   // another
-
-                  
                 ],
               ),
             ),
