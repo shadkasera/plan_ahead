@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:plan_ahead/pages/homepage.dart';
 import 'package:plan_ahead/pages/welcome.dart';
 
 void main() {
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ), debugShowCheckedModeBanner: false,
       
-      home: const WelcomePage(),
+      home: const HomePage(),
     );
   }
 }
